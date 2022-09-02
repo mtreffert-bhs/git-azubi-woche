@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="icon" type="image/x-icon" href="./static/favicon.ico" />
+    <link rel="stylesheet" href="./css/basic-styles.css" />
+  </head>
+<!--Dies soll ein unnötiger Kommentar sein--!>
+  <body id="body" class="center">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/dayjs@1/dayjs.min.js"></script>
+    <script src="./js/index.js"></script>
+    <div id="main-containa">
+      <h1 id="main-title">Temperature Logger</h1>
+      <div class="center">
+        <div id="graph-container">
+          <select id="selectMain"></select>
+          <button id="fetch">UPDATE DATA</button>
+          <div>
+            <p id="sensor"></p>
